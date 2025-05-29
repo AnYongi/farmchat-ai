@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "farmchat"
+version = "0.1.0"
+description = "A chatbot for farmers to query soil and weather information"
+authors = ["Anjung Tan <ctan0722@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "main" },
+    { include = "models" },
+    { include = "api" },
+    { include = "resources" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+
+# --- 핵심 패키지 ---
+streamlit = "^1.41.1"
+requests = "^2.31.0"
+openai = "^1.12.0"
+python-dotenv = "^1.0.1"
+pydantic = "^2.9.2"
+
+# --- 향후 사용 예정 ---
+langchain = "^0.3.0"
+langchain-openai = "^0.2.0"
+pymongo = "^4.9.1"
+
+# --- 불필요한 항목은 주석 처리 ---
+# faiss-cpu = "^1.8.0.post1"
+# matplotlib = "^3.9.1"
+# fuzzywuzzy = "^0.18.0"
+# rank-bm25 = "^0.2.2"
+# pypdf = "^4.3.0"
+# pymupdf = "^1.24.10"
+# ipython = "^8.27.0"
+# fastapi = "^0.114.0"
+# uvicorn = "^0.30.6"
+# langgraph = "^0.2.22"
+# langchain-experimental = "^0.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
