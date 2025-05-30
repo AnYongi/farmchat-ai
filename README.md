@@ -42,7 +42,6 @@ poetry install
 ```bash
 poetry shell
 ```
-<br>
 
 ## ▶️ 실행 방법
 
