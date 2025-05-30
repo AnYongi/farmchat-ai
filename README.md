@@ -20,6 +20,7 @@ farmchat-ai/
 └── requirements.txt # Python 패키지 의존성
 ```
 
+
 ## 🛠️ 기술 스택
 
 - Python 3.11 이상
@@ -28,6 +29,7 @@ farmchat-ai/
 - Pydantic
 - LangChain (향후 사용 예정)
 - MongoDB (향후 사용 예정)
+
 
 ## 📦 설치 방법
 
@@ -43,11 +45,13 @@ poetry install
 poetry shell
 ```
 
+
 ## ▶️ 실행 방법
 
 ```bash
 streamlit run main/app.py
 ```
+
 
 ## ⚙️ 개발 환경 설정
 
@@ -56,6 +60,7 @@ streamlit run main/app.py
 OPENAI_API_KEY=your_api_key_here
 ```
 
+
 ## ✅ 테스트
 
 테스트를 실행하려면:
@@ -63,11 +68,13 @@ OPENAI_API_KEY=your_api_key_here
 pytest
 ```
 
+
 ## 📄 라이선스
 
 이 프로젝트는 GNU General Public License v3.0 (GPL-3.0) 라이선스 하에 배포됩니다. 이 라이선스는 상업적 사용을 제한하며, 이 소프트웨어를 사용하여 만든 모든 파생작품도 동일한 라이선스로 공개되어야 합니다.
 
 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
 
 ## 👤 작성자
 
